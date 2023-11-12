@@ -1,0 +1,25 @@
+package org.example;
+
+import java.util.TreeMap;
+
+public class Class_TreeMap_ {
+    public static void num(){
+        TreeMap<Integer,String> tMap = new TreeMap<>();
+        tMap.put(1,"один"); System.out.println(tMap);
+        // {1=один}
+        tMap.put(6,"шесть"); System.out.println(tMap);
+        // {1=один, 6=шесть}
+        tMap.put(4,"четыре"); System.out.println(tMap);
+        // {1=один, 4=четыре, 6=шесть}
+        tMap.put(3,"три"); System.out.println(tMap);
+        // {1=один, 3=три, 4=четыре, 6=шесть}
+        tMap.put(2,"два"); System.out.println(tMap);
+        // {1=один, 2=два, 3=три, 4=четыре, 6=шесть}
+        tMap.put(7,"два"); System.out.println(tMap);
+        // {1=один, 2=два, 3=три, 4=четыре, 6=шесть}
+    }
+    public static void main(String[] args) {
+        num();
+
+    }
+}
